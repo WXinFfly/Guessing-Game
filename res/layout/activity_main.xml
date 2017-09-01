@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="请出拳" />
+    <RadioGroup 
+        android:id="@+id/rdg_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton 
+            android:id="@+id/rdb_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="剪刀" />
+        <RadioButton 
+            android:id="@+id/rdb_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="石头"
+            />
+        <RadioButton 
+            android:id="@+id/rdb_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="布" />
+    </RadioGroup>
+    <Button 
+        android:id="@+id/btn_cq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="猜一猜拳"/>
+    <TextView 
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结果"
+        />
+
+</LinearLayout>
